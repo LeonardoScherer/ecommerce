@@ -1,33 +1,33 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => 'f7a3ab989b8b9b86627dc0e232f42d91e546bacb',
     'name' => 'leonardoscherer/ecommerce',
   ),
   'versions' => 
   array (
     'leonardoscherer/ecommerce' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => 'f7a3ab989b8b9b86627dc0e232f42d91e546bacb',
     ),
     'phpmailer/phpmailer' => 
     array (
-      'pretty_version' => 'v5.2.22',
-      'version' => '5.2.22.0',
+      'pretty_version' => 'v6.5.0',
+      'version' => '6.5.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'b18cb98131bd83103ccb26a888fdfe3177b8a663',
+      'reference' => 'a5b5c43e50b7fba655f793ad27303cd74c57363c',
     ),
     'rain/raintpl' => 
     array (

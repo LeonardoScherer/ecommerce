@@ -6,14 +6,15 @@ class Model{
 
 	private $values = [];
 
-	public function __call($name, $args){
+	public function __call($name, $args)
+	{
 
 		$method = substr($name, 0, 3);
 		$fieldName = substr($name, 3, strlen($name));
 
 		switch ($method) {
 			case 'get':
-				$this->values[$fieldName];
+				return (isset($this->values[$fieldName])) ?$this->values[$fieldName] : NULL;
 				break;
 
 			case 'set':
@@ -23,7 +24,8 @@ class Model{
 
 	}
 
-	public function setData($data = array()){
+	public function setData($data = array())
+	{
 
 		foreach ($data as $key => $value) {
 			
@@ -33,7 +35,8 @@ class Model{
 
 	}
 
-	public function getValues(){
+	public function getValues()
+	{
 
 		return $this->values;
 
